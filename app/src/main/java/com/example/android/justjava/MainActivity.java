@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitOrder(View view) {
         // displayPrice(quantity*5);
-        String priceMessage = "That would be $" + quantity*5 + ".\nThank you!";
+        String priceMessage = "That will be $" + quantity*5 + ".\nThank you!";
         displayMessage(priceMessage);
     }
     /**
